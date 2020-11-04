@@ -1,0 +1,15 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to #{title}
+  form(action='/',method='post')
+    select(name='preferredDb')
+      option(value='') Select
+      option(value='mongo') MongoDB
+      option(value='mysql') MySQL
+    input(type='submit' value='Next')
+    br
+    br
+    h2 Data from #{db}
+    #{data}
