@@ -1,9 +1,9 @@
 let UserModel = require('./models/user.model');
 let sampleData = {
-    firstName: 'Jameer',
-    lastName: 'Khan',
-    address: 'Noida',
-    company: 'R Systems Inc'
+    firstName: 'Test First Name',
+    lastName: 'Test Second Name',
+    address: 'India',
+    company: 'Test Company Inc'
 }
 
 module.exports = async () => {
